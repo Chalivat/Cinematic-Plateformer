@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c9bad2d36770b2d45bed194a552a9d00
+guid: effd47c8c16e9014a8fab6298a4f9464
 ModelImporter:
   serializedVersion: 26
   internalIDToNameTable:
@@ -7,11 +7,11 @@ ModelImporter:
       74: -4791504522942941401
     second: Armature|Armature|mixamo.com|Layer0
   - first:
+      74: 4982468044998214825
+    second: Armature|Envol
+  - first:
       74: 5100194938957747989
     second: Armature|Marche_Parapluie
-  - first:
-      74: -7311557835632568507
-    second: "Armature|Marche_Parapluie_Ferm\xE9"
   - first:
       74: -1159410940900969656
     second: Armature.001|Fermer
@@ -19,17 +19,9 @@ ModelImporter:
       74: 6418625082237575741
     second: Armature.001|Fermeture
   - first:
-      74: -3386192819695261025
-    second: "Armature.001|Marche_Parapluie_Ferm\xE9"
-  - first:
       74: 6437983481775594979
     second: Armature.001|Ouvert
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: No Name
-    second: {fileID: 2100000, guid: b2639244428a629428a7eb17531f3153, type: 2}
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
@@ -87,11 +79,11 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|Marche_Parapluie
-      takeName: Armature|Marche_Parapluie
+      name: Armature|Envol
+      takeName: Armature|Envol
       internalID: 0
       firstFrame: 0
-      lastFrame: 49
+      lastFrame: 1
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -116,8 +108,8 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: "Armature|Marche_Parapluie_Ferm\xE9"
-      takeName: "Armature|Marche_Parapluie_Ferm\xE9"
+      name: Armature|Marche_Parapluie
+      takeName: Armature|Marche_Parapluie
       internalID: 0
       firstFrame: 0
       lastFrame: 49
@@ -203,35 +195,6 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: "Armature.001|Marche_Parapluie_Ferm\xE9"
-      takeName: "Armature.001|Marche_Parapluie_Ferm\xE9"
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 49
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
       name: Armature.001|Ouvert
       takeName: Armature.001|Ouvert
       internalID: 0
@@ -243,7 +206,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0

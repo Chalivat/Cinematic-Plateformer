@@ -12,6 +12,7 @@ public class Character_Control : MonoBehaviour
     private Vector3 direction;
     private bool isGrounded;
     public float groundedDrag;
+    public Animator anim;
     void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -29,9 +30,14 @@ public class Character_Control : MonoBehaviour
         if (Physics.Raycast(transform.position, Vector3.down, out hit, 2))
         {
             isGrounded = true;
+            anim.SetBool("IsGrounded",true);
+            Debug.Log(hit.collider.gameObject);
         }
-        else isGrounded = false;
-        Debug.Log("");
+        else
+        {
+            isGrounded = false;
+            anim.SetBool("IsGrounded", false);
+        }
         float x = Input.GetAxis("Horizontal");
         direction = new Vector3(x,0,0);
         if (rb.velocity.magnitude <= maxSpeed)
