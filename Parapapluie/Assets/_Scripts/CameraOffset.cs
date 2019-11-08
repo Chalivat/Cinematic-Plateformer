@@ -32,7 +32,7 @@ public class CameraOffset : MonoBehaviour
     
     void FixedUpdate()
     {
-        AimZoom();
+       // AimZoom();
     }
 
     void OnValidate()
