@@ -19,7 +19,6 @@ public class Character_Control : MonoBehaviour
     
     void FixedUpdate()
     {
-        
         Move();
         Rotate();
     }
@@ -71,6 +70,10 @@ public class Character_Control : MonoBehaviour
         else if (x < 0.1f)
         {
             lookDirection = Vector3.back;
+        }
+        else
+        {
+            
         }
         Quaternion newRot = Quaternion.LookRotation(lookDirection);
         transform.rotation = Quaternion.Lerp(transform.rotation, newRot, 0.5f);
