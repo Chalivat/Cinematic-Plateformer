@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Basic_Add
-  m_Shader: {fileID: -6465566751694194690, guid: 44e2bc086a0de9e488d63f28c1f1f17a,
+  m_Name: Basic AlB
+  m_Shader: {fileID: -6465566751694194690, guid: a32a6ef7cc91ce9439b6a1f365219796,
     type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -21,9 +21,9 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_464C9D1A:
-        m_Texture: {fileID: 2800000, guid: 8a43980ed6b3b7d49a65952b2799a5a6, type: 3}
+        m_Texture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
     m_Colors:
-    - Color_F9E82D4C: {r: 2, g: 2, b: 2, a: 1}
+    - Color_F9E82D4C: {r: 47.937256, g: 47.937256, b: 47.937256, a: 1}
