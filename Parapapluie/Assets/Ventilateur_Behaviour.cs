@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.Numerics;
+using System.Text;
 using UnityEngine;
 using Vector3 = UnityEngine.Vector3;
 
@@ -20,12 +21,33 @@ public class Ventilateur_Behaviour : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Space) && collisionCount > 0)
         {
-           player.velocity = player.velocity + (transform.up * WindStrengh);
-           
+           //player.velocity = player.velocity + (transform.up * WindStrengh);
+           //player.velocity = transform.up * WindStrengh * 30;
+           AlignPlayerToWind();
         }
+        //Debug.DrawRay(transform.position,transform.up,Color.blue,2f);
     }
-    
 
+
+
+    void AlignPlayerToWind()
+    {
+
+        Vector3 direction = player.transform.position - transform.position;
+        Vector3 newDirection = Vector3.Dot(direction, transform.up);
+
+
+        //Vector3 direction = player.transform.position - transform.position;
+        //Vector3 newDirection = Vector3.Project(direction, transform.up);
+        //player.velocity = ((transform.position + newDirection) - player.position).normalized * WindStrengh;
+        //Debug.DrawRay(transform.position,direction,Color.red);
+        //Debug.DrawRay(player.transform.position,(newDirection - player.transform.position.normalized).normalized,Color.yellow);
+
+        //Vector3 direction = player.transform.position - transform.position;
+        //Vector3 newDirection = player.transform.up * direction.magnitude;
+        //Vector3 finalDirection = newDirection - player.transform.position;
+        //player.velocity = finalDirection * WindStrengh;
+    }
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
