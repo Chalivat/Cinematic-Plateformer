@@ -190,7 +190,7 @@ PrefabInstance:
     - target: {fileID: 6782353079111648898, guid: fe64701fee3a20d41a6b0c29ee49f12f,
         type: 3}
       propertyPath: WindStrengh
-      value: 0.1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 6782353079111648898, guid: fe64701fee3a20d41a6b0c29ee49f12f,
         type: 3}
@@ -205,12 +205,17 @@ PrefabInstance:
     - target: {fileID: 6782353079111648897, guid: fe64701fee3a20d41a6b0c29ee49f12f,
         type: 3}
       propertyPath: m_Center.x
-      value: 0.0000028672894
+      value: 0.22
       objectReference: {fileID: 0}
     - target: {fileID: 6782353079111648897, guid: fe64701fee3a20d41a6b0c29ee49f12f,
         type: 3}
       propertyPath: m_Center.y
       value: 11.63079
+      objectReference: {fileID: 0}
+    - target: {fileID: 6782353079111648897, guid: fe64701fee3a20d41a6b0c29ee49f12f,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 6782353079048684079, guid: fe64701fee3a20d41a6b0c29ee49f12f,
         type: 3}
@@ -232,6 +237,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: b2639244428a629428a7eb17531f3153, type: 2}
+    - target: {fileID: 6782353078743886067, guid: fe64701fee3a20d41a6b0c29ee49f12f,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe64701fee3a20d41a6b0c29ee49f12f, type: 3}
 --- !u!1001 &111674732
@@ -2928,12 +2938,12 @@ PrefabInstance:
     - target: {fileID: 3969272054269589279, guid: 74e3c425134cc62499720dfce811ba1c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.36
+      value: 14.87
       objectReference: {fileID: 0}
     - target: {fileID: 3969272054269589279, guid: 74e3c425134cc62499720dfce811ba1c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.01
+      value: 4.16
       objectReference: {fileID: 0}
     - target: {fileID: 3969272054269589279, guid: 74e3c425134cc62499720dfce811ba1c,
         type: 3}
@@ -3758,7 +3768,7 @@ PrefabInstance:
     - target: {fileID: 6782353079111648898, guid: fe64701fee3a20d41a6b0c29ee49f12f,
         type: 3}
       propertyPath: WindStrengh
-      value: 2
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 6782353078743886068, guid: fe64701fee3a20d41a6b0c29ee49f12f,
         type: 3}
