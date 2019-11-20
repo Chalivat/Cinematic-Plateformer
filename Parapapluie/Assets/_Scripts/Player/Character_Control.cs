@@ -17,7 +17,7 @@ public class Character_Control : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
     }
-    
+
     void FixedUpdate()
     {
         Move();
@@ -30,7 +30,7 @@ public class Character_Control : MonoBehaviour
         if (Physics.Raycast(transform.position, Vector3.down, out hit, 2))
         {
             isGrounded = true;
-            anim.SetBool("IsGrounded",true);
+            anim.SetBool("IsGrounded", true);
             Debug.Log(hit.collider.gameObject);
         }
         else
@@ -39,7 +39,7 @@ public class Character_Control : MonoBehaviour
             anim.SetBool("IsGrounded", false);
         }
         float x = Input.GetAxis("Horizontal");
-        direction = new Vector3(x,0,0);
+        direction = new Vector3(x, 0, 0);
         if (rb.velocity.magnitude <= maxSpeed)
         {
             if (isGrounded)
@@ -55,21 +55,22 @@ public class Character_Control : MonoBehaviour
         {
             rb.velocity = new Vector3(direction.x * maxSpeed, rb.velocity.y, rb.velocity.z);
         }
-        else if(x < 0)
+        else if (x < 0)
         {
             rb.velocity = new Vector3(direction.x * maxSpeed, rb.velocity.y, rb.velocity.z);
         }
 
-        
-        
+
+
     }
 
 
     void Rotate()
     {
+        LastInput();
         float x = Input.GetAxis("Horizontal");
         Vector3 lookDirection = transform.right;
-        if (x > 0.1f)
+        if (x > 0.1f || dPressed)
         {
             lookDirection = Vector3.forward;
         }
@@ -77,12 +78,26 @@ public class Character_Control : MonoBehaviour
         {
             lookDirection = Vector3.back;
         }
-        else
-        {
-            
-        }
         Quaternion newRot = Quaternion.LookRotation(lookDirection);
         transform.rotation = Quaternion.Lerp(transform.rotation, newRot, 0.5f);
     }
 
+    private bool dPressed;
+    private bool qPressed;
+    void LastInput()
+    {
+        if (Input.GetKey(KeyCode.D) && !Input.GetKey(KeyCode.Q))
+        {
+            dPressed = true;
+            qPressed = false;
+        }
+
+        if (Input.GetKey(KeyCode.Q) && !Input.GetKey(KeyCode.D))
+        {
+            dPressed = false;
+            qPressed = true;
+        }
+    }
+
 }
+s
