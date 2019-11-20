@@ -7,7 +7,7 @@ public class Parapluie_Behaviour : MonoBehaviour
 {
     private bool hasParapluie;
 
-    public GameObject Parapluie;
+    public Animator Parapluie;
     private Rigidbody rb;
     public float normalDrag, ParapluieDrag,groundedDrag;
 
@@ -45,13 +45,15 @@ public class Parapluie_Behaviour : MonoBehaviour
 
     void SortirParapluie()
     {
-        Parapluie.SetActive(true);
+        //Parapluie.SetActive(true);
+        Parapluie.SetBool("Parapluie",true);
         rb.drag = ParapluieDrag;
     }
 
     void RentrerParapluie()
     {
-        Parapluie.SetActive(false);
+        //Parapluie.SetActive(false);
+        Parapluie.SetBool("Parapluie", false);
         rb.drag = normalDrag;
     }
 

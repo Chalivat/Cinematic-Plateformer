@@ -24,7 +24,12 @@ ModelImporter:
   - first:
       74: 6437983481775594979
     second: Armature.001|Ouvert
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: b2639244428a629428a7eb17531f3153, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -93,7 +98,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
