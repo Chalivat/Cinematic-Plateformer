@@ -1,0 +1,1 @@
+Bruit que fait le parapluie quand il entre dans une colonne d'air. A jouer aléatoirement parmis les 4 sons.

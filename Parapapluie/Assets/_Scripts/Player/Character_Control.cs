@@ -10,7 +10,7 @@ public class Character_Control : MonoBehaviour
     public float Speed;
     public float maxSpeed;
     private Vector3 direction;
-    private bool isGrounded;
+    public bool isGrounded;
     public float groundedDrag;
     public Animator anim;
     void Start()
