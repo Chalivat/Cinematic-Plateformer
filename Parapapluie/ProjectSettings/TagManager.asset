@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Ventilateur
   - Pluie
+  - Drop
   layers:
   - Default
   - TransparentFX

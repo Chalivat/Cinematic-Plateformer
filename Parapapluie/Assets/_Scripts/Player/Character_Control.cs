@@ -100,4 +100,3 @@ public class Character_Control : MonoBehaviour
     }
 
 }
-s
