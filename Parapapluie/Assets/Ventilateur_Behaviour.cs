@@ -23,8 +23,8 @@ public class Ventilateur_Behaviour : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Space) && collisionCount > 0 && isActive)
         {
-            //player.velocity = transform.up * WindStrengh * 30;
-            player.AddForce(transform.up * WindStrengh,ForceMode.VelocityChange);
+            player.velocity = transform.up * WindStrengh * 30;
+            //player.AddForce(transform.up * WindStrengh,ForceMode.VelocityChange);
             //AlignPlayerToWind();
         }
         //Debug.DrawRay(transform.position,transform.up,Color.blue,2f);
