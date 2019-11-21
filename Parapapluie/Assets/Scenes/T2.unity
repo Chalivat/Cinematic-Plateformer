@@ -205,22 +205,22 @@ PrefabInstance:
     - target: {fileID: 6782353079111648897, guid: fe64701fee3a20d41a6b0c29ee49f12f,
         type: 3}
       propertyPath: m_Size.y
-      value: 24.261368
+      value: 29.37178
       objectReference: {fileID: 0}
     - target: {fileID: 6782353079111648897, guid: fe64701fee3a20d41a6b0c29ee49f12f,
         type: 3}
       propertyPath: m_Center.x
-      value: 0.22
+      value: 0.06585701
       objectReference: {fileID: 0}
     - target: {fileID: 6782353079111648897, guid: fe64701fee3a20d41a6b0c29ee49f12f,
         type: 3}
       propertyPath: m_Center.y
-      value: 11.63079
+      value: 14.186102
       objectReference: {fileID: 0}
     - target: {fileID: 6782353079111648897, guid: fe64701fee3a20d41a6b0c29ee49f12f,
         type: 3}
       propertyPath: m_Size.x
-      value: 0.4
+      value: 0.7082931
       objectReference: {fileID: 0}
     - target: {fileID: 6782353079048684079, guid: fe64701fee3a20d41a6b0c29ee49f12f,
         type: 3}
@@ -4517,12 +4517,22 @@ PrefabInstance:
     - target: {fileID: 6782353079111648898, guid: fe64701fee3a20d41a6b0c29ee49f12f,
         type: 3}
       propertyPath: WindStrengh
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6782353079111648898, guid: fe64701fee3a20d41a6b0c29ee49f12f,
         type: 3}
       propertyPath: isActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6782353079111648897, guid: fe64701fee3a20d41a6b0c29ee49f12f,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 18.136745
+      objectReference: {fileID: 0}
+    - target: {fileID: 6782353079111648897, guid: fe64701fee3a20d41a6b0c29ee49f12f,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 8.568373
       objectReference: {fileID: 0}
     - target: {fileID: 6782353078743886068, guid: fe64701fee3a20d41a6b0c29ee49f12f,
         type: 3}
