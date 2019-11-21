@@ -1,0 +1,1 @@
+Eboulement : A jouer dans le lvl 3 (ou 2 je sais plus. A voir sur le LD) quand un pan de mur s'effondre pour créer un passage.

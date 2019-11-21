@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Parapluie_Behaviour : MonoBehaviour
 {
-    private bool hasParapluie;
+    public bool hasParapluie;
 
     public Animator Parapluie;
     private Rigidbody rb;
