@@ -7,9 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Basic_Add
-  m_Shader: {fileID: -6465566751694194690, guid: 44e2bc086a0de9e488d63f28c1f1f17a,
-    type: 3}
+  m_Name: Mur 2
+  m_Shader: {fileID: 4800000, guid: 1ccecd9b89b8a4f14bfb64f29ddfcc81, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -20,10 +19,12 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - Texture2D_464C9D1A:
-        m_Texture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 12756b545b0722f4ba096ff916dd4638, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    m_Floats: []
+    m_Floats:
+    - _Glossiness: 0.5
+    - _Metallic: 0
     m_Colors:
-    - Color_F9E82D4C: {r: 2, g: 2, b: 2, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
