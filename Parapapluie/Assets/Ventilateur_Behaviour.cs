@@ -11,26 +11,21 @@ public class Ventilateur_Behaviour : MonoBehaviour
     private int collisionCount;
     private Character_Control characterControl;
     private Rigidbody player;
-    public bool isActive;
 
-    private Collider coll;
+    public bool isActive;
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody>();
         characterControl = player.gameObject.GetComponent<Character_Control>();
-        coll = GetComponent<Collider>();
     }
     
     void FixedUpdate()
     {
-        float distance = Vector3.Distance(player.transform.position,transform.position + transform.up * coll.bounds.size.y);
-        if (Input.GetKey(KeyCode.Space) && collisionCount > 0 && isActive && distance >= 5f)
+        if (Input.GetKey(KeyCode.Space) && collisionCount > 0 && isActive)
         {
+            player.velocity = transform.up * WindStrengh * 30;
             //player.AddForce(transform.up * WindStrengh,ForceMode.VelocityChange);
-            AlignPlayerToWind();
-            Vector3 target = transform.position + transform.up * coll.bounds.size.y;
-            Vector3 direction = target - player.position;
-            player.velocity = direction.normalized * WindStrengh * 5;
+            //AlignPlayerToWind();
         }
         //Debug.DrawRay(transform.position,transform.up,Color.blue,2f);
     }
@@ -40,7 +35,7 @@ public class Ventilateur_Behaviour : MonoBehaviour
     void AlignPlayerToWind()
     {
 
-        Vector3 direction = transform.up * coll.bounds.size.y;
+
 
 
         //Vector3 direction = player.transform.position - transform.position;
@@ -69,9 +64,8 @@ public class Ventilateur_Behaviour : MonoBehaviour
         {
             collisionCount--;
         }
+        
     }
-
-    
 
 
 }

@@ -97,7 +97,11 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
   m_LightingDataAsset: {fileID: 0}
+<<<<<<< HEAD
   m_UseShadowmask: 1
+=======
+  m_UseShadowmask: 0
+>>>>>>> parent of 4c4cbd2... Merge branch 'Dev' into Ready_NewHugo
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -1111,7 +1115,11 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_Name: pb_Mesh75902
+=======
+  m_Name: pb_Mesh117472
+>>>>>>> parent of 4c4cbd2... Merge branch 'Dev' into Ready_NewHugo
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1555,6 +1563,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+<<<<<<< HEAD
 --- !u!1 &398944567
 GameObject:
   m_ObjectHideFlags: 0
@@ -1630,6 +1639,8 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> parent of 4c4cbd2... Merge branch 'Dev' into Ready_NewHugo
 --- !u!1 &414599732 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1400830134052395670, guid: ce613ef37057d1b4ebda0f5c9706853f,
@@ -6515,7 +6526,11 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_Name: pb_Mesh75924
+=======
+  m_Name: pb_Mesh117494
+>>>>>>> parent of 4c4cbd2... Merge branch 'Dev' into Ready_NewHugo
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -6879,7 +6894,11 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_Name: pb_Mesh75778
+=======
+  m_Name: pb_Mesh117328
+>>>>>>> parent of 4c4cbd2... Merge branch 'Dev' into Ready_NewHugo
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -9549,6 +9568,78 @@ Transform:
   m_Father: {fileID: 7464559440378024801}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
+=======
+--- !u!1001 &7045813361476227266
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7045813361731877365, guid: c1aac88c26a50464382faa3c2bfc1d8f,
+        type: 3}
+      propertyPath: m_Name
+      value: Terrain
+      objectReference: {fileID: 0}
+    - target: {fileID: 7045813361731877368, guid: c1aac88c26a50464382faa3c2bfc1d8f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -416
+      objectReference: {fileID: 0}
+    - target: {fileID: 7045813361731877368, guid: c1aac88c26a50464382faa3c2bfc1d8f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -35.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7045813361731877368, guid: c1aac88c26a50464382faa3c2bfc1d8f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -266.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7045813361731877368, guid: c1aac88c26a50464382faa3c2bfc1d8f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7045813361731877368, guid: c1aac88c26a50464382faa3c2bfc1d8f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7045813361731877368, guid: c1aac88c26a50464382faa3c2bfc1d8f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7045813361731877368, guid: c1aac88c26a50464382faa3c2bfc1d8f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7045813361731877368, guid: c1aac88c26a50464382faa3c2bfc1d8f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7045813361731877368, guid: c1aac88c26a50464382faa3c2bfc1d8f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7045813361731877368, guid: c1aac88c26a50464382faa3c2bfc1d8f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7045813361731877368, guid: c1aac88c26a50464382faa3c2bfc1d8f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c1aac88c26a50464382faa3c2bfc1d8f, type: 3}
+>>>>>>> parent of 4c4cbd2... Merge branch 'Dev' into Ready_NewHugo
 --- !u!1 &7135095369983777548
 GameObject:
   m_ObjectHideFlags: 0
