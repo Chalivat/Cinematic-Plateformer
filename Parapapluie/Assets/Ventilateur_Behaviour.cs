@@ -11,6 +11,8 @@ public class Ventilateur_Behaviour : MonoBehaviour
     private int collisionCount;
     private Character_Control characterControl;
     private Rigidbody player;
+
+    public bool isActive;
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody>();
@@ -19,9 +21,10 @@ public class Ventilateur_Behaviour : MonoBehaviour
     
     void FixedUpdate()
     {
-        if (Input.GetKey(KeyCode.Space) && collisionCount > 0)
+        if (Input.GetKey(KeyCode.Space) && collisionCount > 0 && isActive)
         {
-            player.velocity = transform.up * WindStrengh * 30;
+            //player.velocity = transform.up * WindStrengh * 30;
+            player.AddForce(transform.up * WindStrengh,ForceMode.VelocityChange);
             //AlignPlayerToWind();
         }
         //Debug.DrawRay(transform.position,transform.up,Color.blue,2f);
